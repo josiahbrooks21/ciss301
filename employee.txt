@@ -1,0 +1,25 @@
+
+
+ Attributes 
+ 
+	String first_name; // Employee's first name
+	String last_name; // Employee's last name
+	String phone;     // Employee's phone number
+	String email;     // Employee's email address
+ 
+ 
+ Methods 
+ 
+ Business(String first_name, String last_name, String phone, String email)
+ Example: Business employee1 = new Business("Josiah", "Brooks", "706-614-1421", "josiahbrooks23@gmail.com");
+ 
+ public void contactName(): This prints out employee first and last name
+ 
+ public void contactInfo(): This prints out employee phone number and email address
+ 
+ 
+ How to use the tool
+ 
+ The business class holds all the attributes and most of the methods that run the code. Once the could is run by 
+ using the employee class, each employee object pulls the information from the business class and spits out all 
+ the information needed. 
